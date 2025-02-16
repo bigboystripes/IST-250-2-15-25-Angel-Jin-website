@@ -13,7 +13,7 @@ header{
     justify-content: space-between;
 }
 h1{
-    font-family: Mogra, sans-serif;
+    font-family: Mogra, serif;
     padding-left: 5px;
 }
 nav{
@@ -29,7 +29,7 @@ ul{
 }
 .menu_nav_item{
     display: inline-block;
-    font-family: "Luminari";
+    font-family: "Luminari", serif;
     margin: auto;
     border: 2px groove black;
     padding: 5px 0px 5px 0px;
@@ -42,12 +42,14 @@ a{
 }
 a:hover{
     background-color: rgba(167, 15, 144, 0.341);
-    color: white;
+    color: #FFFFFF;
 }
 h2{
     font-size: 60px;
     margin: 0px 0px 50px 0px;
     text-align: center;
+    font-family: "Rubik Dirt", serif;
+    font-weight: 300;
 }
 img{
     width: 25%;
@@ -57,10 +59,12 @@ img{
 .img_text{
     display: inline-flex;
     margin-bottom: 50px;
+    border: 1px solid gray;
 }
-.image_details{
+.img_details{
     display: flex;
-    flex-direction: column
+    flex-direction: column;
+    width: 50%;
 }
 .item_name{
     margin: 0px 0px 0px 10px;
@@ -69,4 +73,33 @@ img{
 }
 .item_desc{
     margin-left: 40px;
+    width: 600px;
+    font-family: "Special Elite", serif;
+    line-height: 1.6;
+}
+.item_price{
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.shop{
+    height: 50px;
+    display: flex;
+    width: 10pc;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 5pc;
+}
+
+.shop div{
+    display: flex;
+}
+
+.shop select{
+    width: 6pc;
+
+}
+.shop label{
+    width: 4pc;
 }
